@@ -1,68 +1,236 @@
 {
-    "timestamp": "2020-07-13T09:23:47Z",
-    "version": "1.0",
-    "ixp_list": [
+  "version": "1.0",
+  "timestamp": "2024-07-06T18:41:50",
+  "ixp_list": [
+    {
+      "shortname": "TMW-iX",
+      "url": "https://tmw-ix.t-w.dev",
+      "support_email": "support@t-w.dev",
+      "emergency_email": "noc@t-w.dev",
+      "peeringdb_id": 4401,
+      "ixp_id": 1,
+      "country": "DE",
+      "vlan": [
         {
-          "shortname": "Test Exchange",
-          "ixp_id": 1,
-          "ixf_id": 1,
-          "switch": [
+          "id": 1,
+          "name": "TMW-iX Members",
+          "ipv4": {
+            "prefix": "192.168.168.0",
+            "mask_length": 22
+          },
+          "ipv6": {
+            "prefix": "2a0e:b107:2888::",
+            "mask_length": 64
+          }
+        }
+      ],
+      "switch": [
+        {
+          "id": 1000,
+          "name": "esa-edge-01",
+          "colo": "Tizan Maxime Weigt - Eisenach - 01",
+          "city": "Eisenach",
+          "country": "DE"
+        },
+        {
+          "id": 1001,
+          "name": "erf-edge-01",
+          "colo": "KeyWeb Datacenter Erfurt",
+          "city": "Erfurt",
+          "country": "DE",
+          "pdb_facility_id": null
+        },
+        {
+          "id": 1002,
+          "name": "egh-edge-01",
+          "colo": "Skylink Datacenter B.V",
+          "city": "Eygelshoven",
+          "country": "NL",
+          "pdb_facility_id": 5872
+        },
+        {
+          "id": 1003,
+          "name": "ffm-edge-03",
+          "colo": "Interwerk Datacenter Frankfurt",
+          "city": "Frankfurt",
+          "country": "DE",
+          "pdb_facility_id": 927
+        },
+        {
+          "id": 1004,
+          "name": "ffm-edge-02",
+          "colo": "Digital Realty Frankfurt FRA1-16",
+          "city": "Frankfurt",
+          "country": "DE",
+          "pdb_facility_id": 58
+        },
+        {
+          "id": 1005,
+          "name": "ffm-edge-01",
+          "colo": "Equinix FR7 - Gutleutstrasse",
+          "city": "Frankfurt",
+          "country": "DE",
+          "pdb_facility_id": 74
+        },
+        {
+          "id": 1006,
+          "name": "nbg-edge-01",
+          "colo": "Hetzner Nuernberg",
+          "city": "Nuernberg",
+          "country": "DE",
+          "pdb_facility_id": 3250
+        },
+        {
+          "id": 1007,
+          "name": "lej-edge-01",
+          "colo": "Datacenter Leipzig Lindenau (RZW) - PŸUR Business",
+          "city": "Leipzig",
+          "country": "DE",
+          "pdb_facility_id": 9221
+        },
+        {
+          "id": 1008,
+          "name": "fsn-edge-01",
+          "colo": "Hetzner Falkenstein",
+          "city": "Falkenstein",
+          "country": "DE",
+          "pdb_facility_id": 3249
+        },
+        {
+          "id": 1009,
+          "name": "ams-edge-01",
+          "colo": "NIKHEF Amsterdam",
+          "city": "London",
+          "country": "GB",
+          "pdb_facility_id": 18
+        }
+      ]
+    }
+  ],
+  "member_list": [
+    {
+      "asnum": 215828,
+      "name": "Tizian Maxime Weigt",
+      "url": "https://www.t-w.dev",
+      "contact_email": "peering@t-w.dev",
+      "peering_policy": "open",
+      "peering_db": "https://www.peeringdb.com/asn/215828",
+      "connection_list": [
+        {
+          "if_list": [
             {
-              "id": 1,
-              "name": "Test Switch",
-              "pdb_facility_id": null
-            },
+              "switch_id": 1000,
+              "if_speed": 10000
+            }
+          ],
+          "vlan_list": [
             {
-              "id": 2,
-              "name": "Test Switch 2",
-              "pdb_facility_id": 123
+              "vlan_id": 1,
+              "ipv6": {
+                "address": "2a0e:b107:2888:0:1:21:5828:1",
+                "routeserver": true,
+                "bfd": true
+              }
+            }
+          ]
+        },
+        {
+          "if_list": [
+            {
+              "switch_id": 1001,
+              "if_speed": 1000,
+              "pdb_facility_id": 3916
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 1,
+              "ipv6": {
+                "address": "2a0e:b107:2888:0:2:21:5828:1",
+                "routeserver": true,
+                "bfd": true
+              }
             }
           ]
         }
-    ],
-    "member_list": [
+      ]
+    },
+    {
+      "asnum": 215649,
+      "name": "Noel David trading as SN-TUX",
+      "url": "https://sn-tux.it",
+      "contact_email": "noc@sn-tux.it",
+      "peering_policy": "open",
+      "peering_db": "https://www.peeringdb.com/asn/215649",
+      "connection_list": [
         {
-            "asnum": 2906,
-            "member_type": "peering",
-            "name": "Netflix",
-            "url": "http://netflix.com/",
-            "contact_email": [
-                "peering@netflix.com"
-            ],
-            "peering_policy": "open",
-            "member_since": "2009-02-04T00:00:00Z",
-            "connection_list": [
-                {
-                    "ixp_id": 42,
-                    "connected_since": "2009-02-04T00:00:00Z",
-                    "state": "connected",
-                    "if_list": [
-                        {
-                            "switch_id": 1,
-                            "if_speed": null,
-                            "if_type": "LR4",
-                            "pdb_facility_id": null
-                        },
-                        {
-                            "switch_id": 2,
-                            "if_speed": 10000
-                        }
-                    ],
-                    "vlan_list": [
-                        {
-                            "vlan_id": 0,
-                            "ipv4": {
-                                "address": "195.69.147.250",
-                                "routeserver": true
-                            },
-                            "ipv6": {
-                                "address": "2001:7f8:1::a500:2906:1",
-                                "routeserver": true
-                            }
-                        }
-                    ]
-                }
-            ]
+          "if_list": [
+            {
+              "switch_id": 1002,
+              "if_speed": 1000,
+              "pdb_facility_id": 5872
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 1,
+              "ipv6": {
+                "address": "2a0e:b107:2888:0:3:21:5649:1",
+                "routeserver": true,
+                "bfd": true
+              }
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "asnum": 215849,
+      "name": "Tristan Klock",
+      "url": "https://www.banratte.de",
+      "contact_email": "peering@banratte.de",
+      "peering_policy": "open",
+      "peering_db": "https://www.peeringdb.com/asn/215849",
+      "connection_list": [
+        {
+          "if_list": [
+            {
+              "switch_id": 1002,
+              "if_speed": 1000,
+              "pdb_facility_id": null
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 1,
+              "ipv6": {
+                "address": "2a0e:b107:2888:0:3:21:5849:1",
+                "routeserver": true,
+                "bfd": true
+              }
+            }
+          ]
+        },
+        {
+          "if_list": [
+            {
+              "switch_id": 1001,
+              "if_speed": 1000,
+              "pdb_facility_id": 3916
+            }
+          ],
+          "vlan_list": [
+            {
+              "vlan_id": 1,
+              "ipv6": {
+                "address": "2a0e:b107:2888:0:2:21:5849:1",
+                "routeserver": true,
+                "bfd": true
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
