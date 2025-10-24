@@ -46,7 +46,7 @@
           "colo": "Skylink Datacenter B.V",
           "city": "Eygelshoven",
           "country": "NL",
-          "pdb_facility_id": 5872
+          "pdb_facility_id": null
         },
         {
           "id": 1003,
@@ -54,7 +54,7 @@
           "colo": "Interwerk Datacenter Frankfurt",
           "city": "Frankfurt",
           "country": "DE",
-          "pdb_facility_id": 927
+          "pdb_facility_id": null
         },
         {
           "id": 1004,
@@ -62,7 +62,7 @@
           "colo": "Digital Realty Frankfurt FRA1-16",
           "city": "Frankfurt",
           "country": "DE",
-          "pdb_facility_id": 58
+          "pdb_facility_id": null
         },
         {
           "id": 1005,
@@ -70,7 +70,7 @@
           "colo": "Equinix FR7 - Gutleutstrasse",
           "city": "Frankfurt",
           "country": "DE",
-          "pdb_facility_id": 74
+          "pdb_facility_id": null
         },
         {
           "id": 1006,
@@ -78,7 +78,7 @@
           "colo": "Hetzner Nuernberg",
           "city": "Nuernberg",
           "country": "DE",
-          "pdb_facility_id": 3250
+          "pdb_facility_id": null
         },
         {
           "id": 1007,
@@ -86,7 +86,7 @@
           "colo": "Datacenter Leipzig Lindenau (RZW) - PŸUR Business",
           "city": "Leipzig",
           "country": "DE",
-          "pdb_facility_id": 9221
+          "pdb_facility_id": null
         },
         {
           "id": 1008,
@@ -94,7 +94,7 @@
           "colo": "Hetzner Falkenstein",
           "city": "Falkenstein",
           "country": "DE",
-          "pdb_facility_id": 3249
+          "pdb_facility_id": null
         },
         {
           "id": 1009,
@@ -102,7 +102,7 @@
           "colo": "NIKHEF Amsterdam",
           "city": "London",
           "country": "GB",
-          "pdb_facility_id": 18
+          "pdb_facility_id": null
         }
       ]
     }
@@ -139,7 +139,7 @@
             {
               "switch_id": 1001,
               "if_speed": 1000,
-              "pdb_facility_id": 3916
+              "pdb_facility_id": null
             }
           ],
           "vlan_list": [
@@ -168,7 +168,7 @@
             {
               "switch_id": 1002,
               "if_speed": 1000,
-              "pdb_facility_id": 5872
+              "pdb_facility_id": null
             }
           ],
           "vlan_list": [
@@ -216,7 +216,7 @@
             {
               "switch_id": 1001,
               "if_speed": 1000,
-              "pdb_facility_id": 3916
+              "pdb_facility_id": null
             }
           ],
           "vlan_list": [
